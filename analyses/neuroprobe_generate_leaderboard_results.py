@@ -31,9 +31,9 @@ models = [
         'color_palette': 'viridis',
         'eval_results_path': f'./data/eval_results_lite_{split_type}/linear_voltage/',
         'description': 'Linear regression model using raw voltage signals',
-        'author': 'Andrii Zahorodnii',
-        'organization': 'MIT',
-        'organization_url': 'https://mit.edu'
+        'author': 'XXXX',
+        'organization': 'XXXX',
+        'organization_url': 'XXXX'
     },
     {
         'name': 'Linear (spectrogram)',
@@ -41,9 +41,9 @@ models = [
         'color_palette': 'viridis', 
         'eval_results_path': f'./data/eval_results_lite_{split_type}/linear_stft_abs_nperseg512_poverlap0.75_maxfreq150/',
         'description': 'Linear regression model using spectrogram features',
-        'author': 'Andrii Zahorodnii',
-        'organization': 'MIT',
-        'organization_url': 'https://mit.edu'
+        'author': 'XXXX',
+        'organization': 'XXXX',
+        'organization_url': 'XXXX'
     },
     {
         'name': 'Linear (Laplacian re-referencing + spectrogram)',
@@ -51,9 +51,9 @@ models = [
         'color_palette': 'viridis', 
         'eval_results_path': f'./data/eval_results_lite_{split_type}/linear_laplacian-stft_abs_nperseg512_poverlap0.75_maxfreq150/',
         'description': 'Linear regression model using Laplacian re-referencing and spectrogram features',
-        'author': 'Andrii Zahorodnii',
-        'organization': 'MIT',
-        'organization_url': 'https://mit.edu'
+        'author': 'XXXX',
+        'organization': 'XXXX',
+        'organization_url': 'XXXX'
     },
     {
         'name': 'BrainBERT (untrained; frozen; off-the-shelf; per-window STFT z-scoring)',
@@ -62,9 +62,9 @@ models = [
         'eval_results_path': f'./data/new_models_eval_results/brainbert/eval_results_{split_type}/brainbert_randomly_initialized_keepall/',
         'pad_x': 1,
         'description': 'BrainBERT model with random initialization, frozen weights. . This model was taken off-the-shelf and had per-window STFT z-scoring.',
-        'author': 'Andrii Zahorodnii',
-        'organization': 'MIT',
-        'organization_url': 'https://mit.edu'
+        'author': 'XXXX',
+        'organization': 'XXXX',
+        'organization_url': 'XXXX'
     },
     {
         'name': 'BrainBERT (frozen; off-the-shelf; per-window STFT z-scoring)',
@@ -72,9 +72,9 @@ models = [
         'color_palette': 'viridis', 
         'eval_results_path': f'./data/new_models_eval_results/brainbert/eval_results_{split_type}/brainbert_keepall/',
         'description': 'BrainBERT model with pretrained weights, frozen (Wang et al. 2023). This model was taken off-the-shelf and had per-window STFT z-scoring.',
-        'author': 'Andrii Zahorodnii',
-        'organization': 'MIT',
-        'organization_url': 'https://mit.edu'
+        'author': 'XXXX',
+        'organization': 'XXXX',
+        'organization_url': 'XXXX'
     },
     {
         'name': 'PopulationTransformer (off-the-shelf; per-window STFT z-scoring)',
@@ -83,9 +83,9 @@ models = [
         'eval_results_path': f'./data/new_models_eval_results/popt_lite/eval_results_{split_type}/',
         'pad_x': 1,
         'description': 'PopulationTransformer model (Chau et al. 2024). This model was taken off-the-shelf and had per-window STFT z-scoring.',
-        'author': 'Andrii Zahorodnii',
-        'organization': 'MIT',
-        'organization_url': 'https://mit.edu'
+        'author': 'XXXX',
+        'organization': 'XXXX',
+        'organization_url': 'XXXX'
     },
 ]
 

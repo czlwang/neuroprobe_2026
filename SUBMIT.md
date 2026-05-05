@@ -1,9 +1,9 @@
 # Submitting to the Neuroprobe Leaderboard
 
-This document describes the steps which you must follow to submit your results to the public Neuroprobe leaderboard at [https://neuroprobe.dev](https://neuroprobe.dev). 
+This document describes the steps which you must follow to submit your results to the public Neuroprobe leaderboard.
 
-To get a sense of how to use Neuroprobe to evaluate your models, please check out the `quickstart.ipynb` notebook at [examples/quickstart.ipynb](https://github.com/azaho/neuroprobe/blob/main/examples/quickstart.ipynb).
-For more advanced examples, please see the rest of the [examples/](https://github.com/azaho/neuroprobe/blob/main/examples/) directory!
+To get a sense of how to use Neuroprobe to evaluate your models, please check out the `quickstart.ipynb` notebook.
+For more advanced examples, please see the rest of the `examples/`!
 
 ## Train/Val/Test Splits
 
@@ -57,9 +57,9 @@ The evaluation results are aggregated per task, in files named `population_TASKN
 {
     "model_name": "Linear Regression",           # Name of the model
     "description": "Linear Regression model",    # Brief description of the model
-    "author": "John Doe",                        # Name of the submitting author to the leaderboard
-    "organization": "MIT",                       # Organization associated with the model (can be an individual). Ideally, a short abbreviation.
-    "organization_url": "https://mit.edu",       # URL of the organization
+    "author": "XXXX",                        # Name of the submitting author to the leaderboard
+    "organization": "XXXX",                       # Organization associated with the model (can be an individual). Ideally, a short abbreviation.
+    "organization_url": "XXXX",       # URL of the organization
     "timestamp": 0,                              # Timestamp associated with the result.
 
     "evaluation_results": {
@@ -109,10 +109,10 @@ Results are submitted to the Neuroprobe leaderboard via a pull request to the Ne
 {
     "model_name": "Linear Regression",           # Name of the model
     "description": "Linear Regression model",    # Brief description of the model
-    "author": "John Doe",                        # Name of the submitting author to the leaderboard
-    "organization": "MIT",                       # Organization associated with the model (can be an individual). Ideally, a short abbreviation.
-    "organization_url": "https://mit.edu",       # URL of the organization
-    "logo_url": "https://mit.edu/logo.jpg",      # Optionally, a URL to the logo of the organization, which may be displayed on the leaderboard entry.
+    "author": "XXXX",                        # Name of the submitting author to the leaderboard
+    "organization": "XXX",                       # Organization associated with the model (can be an individual). Ideally, a short abbreviation.
+    "organization_url": "XXXX",       # URL of the organization
+    "logo_url": "XXXX",      # Optionally, a URL to the logo of the organization, which may be displayed on the leaderboard entry.
     "timestamp": 0                               # Timestamp associated with the submission.
 }
 ```

@@ -6,8 +6,8 @@ including dataset loading, preprocessing, and evaluation utilities.
 """
 
 __version__ = "0.1.6"
-__author__ = "Andrii Zahorodnii, Christopher Wang, Bennett Stankovits, Charikleia Moraitaki, Geeling Chau, Andrei Barbu, Boris Katz, Ila R Fiete"
-__email__ = "zaho@csail.mit.edu"
+__author__ = "XXXX"
+__email__ =  "XXXX"
 
 # Import main classes and functions
 from .braintreebank_subject import BrainTreebankSubject

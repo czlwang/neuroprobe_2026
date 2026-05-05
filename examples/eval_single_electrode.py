@@ -123,10 +123,10 @@ for eval_name in eval_names:
     # Load existing results if file exists
     results = {
         "model_name": model_name,
-        "author": "Andrii Zahorodnii",
+        "author": "XXXX",
         "description": f"Simple {model_name}.",
-        "organization": "MIT",
-        "organization_url": "https://mit.edu",
+        "organization": "XXXX",
+        "organization_url": "XXXX",
         "timestamp": time.time(),
         "evaluation_results": {
             f"{subject.subject_identifier}_{trial_id}": {

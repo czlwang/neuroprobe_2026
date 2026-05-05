@@ -1,9 +1,9 @@
 {
     "model_name": "Linear Regression",
     "description": "Linear Regression model",
-    "author": "John Doe", 
-    "organization": "MIT", 
-    "organization_url": "https://mit.edu",
+    "author": "XXXX", 
+    "organization": "XXXX", 
+    "organization_url": "XXXX",
     "timestamp": 0, 
 
     "evaluation_results": {

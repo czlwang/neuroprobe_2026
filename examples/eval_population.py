@@ -339,10 +339,10 @@ for eval_name in eval_names:
 
     results = {
         "model_name": model_name,
-        "author": "Andrii Zahorodnii",
+        "author": "XXXX",
         "description": f"Simple {model_name} using all electrodes ({preprocess_type if preprocess_type != 'none' else 'voltage'}).",
-        "organization": "MIT",
-        "organization_url": "https://azaho.org/",
+        "organization": "XXXX",
+        "organization_url": "XXXX",
         "timestamp": time.time(),
 
         "evaluation_results": {

@@ -19,7 +19,7 @@
 
 By **Andrii Zahorodnii¹²***, **Christopher Wang¹***, **Bennett Stankovits¹***, **Charikleia Moraitaki¹**, **Geeling Chau³**, **Andrei Barbu¹**, **Boris Katz¹**, **Ila R Fiete¹²**,
 
-¹MIT CSAIL, CBMM  |  ²MIT McGovern Institute  |  ³Caltech  |  *Equal contribution
+¹CSAIL, CBMM  |  ²McGovern Institute  |  ³Caltech  |  *Equal contribution
 
 ## Overview
 Neuroprobe is a benchmark for evaluating EEG/iEEG/sEEG/ECoG foundation models and understanding how the brain processes information across multiple tasks. It analyzes intracranial recordings during naturalistic stimuli using techniques from modern natural language processing. By probing neural responses across many tasks simultaneously, Neuroprobe aims to reveal the functional organization of the brain and relationships between different cognitive processes. The benchmark includes tools for decoding neural signals using both simple linear models and advanced neural networks, enabling researchers to better understand how the brain processes information across vision, language, and audio domains.

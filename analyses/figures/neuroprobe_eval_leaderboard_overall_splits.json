@@ -1,0 +1,198 @@
+{
+  "DIVER-1_0.1s_tiny_frozen": {
+    "WithinSession": {
+      "mean": 0.6776861111111111,
+      "sem": 0.0046300989977717194
+    },
+    "CrossSession": {
+      "mean": null,
+      "sem": null
+    },
+    "CrossSubject": {
+      "mean": null,
+      "sem": null
+    }
+  },
+  "Population Transformer (global z-scoring)": {
+    "WithinSession": {
+      "mean": 0.6700032937829508,
+      "sem": 0.004926464757673741
+    },
+    "CrossSession": {
+      "mean": 0.6626914119612688,
+      "sem": 0.004182857050524003
+    },
+    "CrossSubject": {
+      "mean": 0.5750058114937607,
+      "sem": 0.006234686093268372
+    }
+  },
+  "CNN_Laplacian_rereferencing_spectrogram": {
+    "WithinSession": {
+      "mean": 0.6686000061047539,
+      "sem": 0.0054612865529313475
+    },
+    "CrossSession": {
+      "mean": 0.6704236284431705,
+      "sem": 0.004899891869695213
+    },
+    "CrossSubject": {
+      "mean": 0.5776835073203573,
+      "sem": 0.00456624291387638
+    }
+  },
+  "DIVER-1_0.1s_tiny": {
+    "WithinSession": {
+      "mean": 0.6651881666666667,
+      "sem": 0.004473460866671688
+    },
+    "CrossSession": {
+      "mean": null,
+      "sem": null
+    },
+    "CrossSubject": {
+      "mean": null,
+      "sem": null
+    }
+  },
+  "Linear (Laplacian re-referencing + spectrogram)": {
+    "WithinSession": {
+      "mean": 0.6599077810422711,
+      "sem": 0.005343528409068332
+    },
+    "CrossSession": {
+      "mean": 0.651149022795248,
+      "sem": 0.004720246047485648
+    },
+    "CrossSubject": {
+      "mean": 0.539212451742488,
+      "sem": 0.004326467312439756
+    }
+  },
+  "MLP_Laplacian_rereferencing_spectrogram": {
+    "WithinSession": {
+      "mean": 0.6562745778145381,
+      "sem": 0.005476226015998514
+    },
+    "CrossSession": {
+      "mean": 0.6548880403916741,
+      "sem": 0.004893865181963454
+    },
+    "CrossSubject": {
+      "mean": 0.5658775459671997,
+      "sem": 0.004396299183658169
+    }
+  },
+  "BrainBERT (frozen, global z-scoring)": {
+    "WithinSession": {
+      "mean": 0.6256546519883127,
+      "sem": 0.00444159542516095
+    },
+    "CrossSession": {
+      "mean": 0.6326424312084111,
+      "sem": 0.003614095415473739
+    },
+    "CrossSubject": {
+      "mean": 0.5471237606212218,
+      "sem": 0.004016159885630139
+    }
+  },
+  "Linear (spectrogram)": {
+    "WithinSession": {
+      "mean": 0.6252029376620418,
+      "sem": 0.005744581780012982
+    },
+    "CrossSession": {
+      "mean": 0.6257069424862015,
+      "sem": 0.004959864528948656
+    },
+    "CrossSubject": {
+      "mean": 0.5276440310967986,
+      "sem": 0.0029414173124091775
+    }
+  },
+  "Linear (raw voltage)": {
+    "WithinSession": {
+      "mean": 0.603689967281871,
+      "sem": 0.003960820894904792
+    },
+    "CrossSession": {
+      "mean": 0.5737331432688229,
+      "sem": 0.003307129368044086
+    },
+    "CrossSubject": {
+      "mean": 0.5092977185487277,
+      "sem": 0.0018328351137554338
+    }
+  },
+  "BrainBERT (frozen; off-the-shelf; per-window STFT z-scoring)": {
+    "WithinSession": {
+      "mean": 0.5851276651249059,
+      "sem": 0.00422436035325719
+    },
+    "CrossSession": {
+      "mean": 0.580001500407485,
+      "sem": 0.004243663583563071
+    },
+    "CrossSubject": {
+      "mean": 0.5222574142997579,
+      "sem": 0.0018141617839296474
+    }
+  },
+  "BrainBERT (untrained; frozen; off-the-shelf; per-window STFT z-scoring)": {
+    "WithinSession": {
+      "mean": 0.5808346038656211,
+      "sem": 0.004010924651950488
+    },
+    "CrossSession": {
+      "mean": 0.5724665303132694,
+      "sem": 0.004066013882139139
+    },
+    "CrossSubject": {
+      "mean": 0.5265593826400979,
+      "sem": 0.0019838595802563067
+    }
+  },
+  "GLIS-GNN (ST-GCN, Functional Graph)": {
+    "WithinSession": {
+      "mean": 0.552642962164532,
+      "sem": 0.0046728814676915385
+    },
+    "CrossSession": {
+      "mean": 0.5498536614648628,
+      "sem": 0.004370690849935929
+    },
+    "CrossSubject": {
+      "mean": 0.5152084844607085,
+      "sem": 0.003638768671756955
+    }
+  },
+  "PopulationTransformer (off-the-shelf; per-window STFT z-scoring)": {
+    "WithinSession": {
+      "mean": 0.5493758680576224,
+      "sem": 0.004936509347940716
+    },
+    "CrossSession": {
+      "mean": 0.5636552752844212,
+      "sem": 0.004355823445412424
+    },
+    "CrossSubject": {
+      "mean": null,
+      "sem": null
+    }
+  },
+  "RNN (gru)": {
+    "WithinSession": {
+      "mean": null,
+      "sem": null
+    },
+    "CrossSession": {
+      "mean": 0.5100183875981317,
+      "sem": 0.0019082492513026771
+    },
+    "CrossSubject": {
+      "mean": null,
+      "sem": null
+    }
+  }
+}

@@ -1,12 +1,6 @@
 # Neuroprobe
 
 <p align="center">
-  <a href="https://neuroprobe.dev">
-    <img src="https://github.com/azaho/neuroprobe/blob/main/website/neuroprobe_animation.gif?raw=True" alt="Neuroprobe Logo" style="height: 10em" />
-  </a>
-</p>
-
-<p align="center">
     <a href="https://www.python.org/">
         <img alt="Python" src="https://img.shields.io/badge/Python-3.8+-1f425f.svg?color=purple">
     </a>
@@ -20,13 +14,6 @@
 
 <p align="center"><strong>Neuroprobe: Benchmark for Evaluating iEEG Foundation Models.</strong></p>
 <p align="center"><strong>Evaluating Intracranial Brain Responses to Naturalistic Stimuli</strong></p>
-
-<p align="center">
-    <a href="https://neuroprobe.dev">🌐 Website</a> |
-    <a href="https://www.arxiv.org/abs/2509.21671">📄 Paper</a> |
-    <a href="https://github.com/azaho/neuroprobe/blob/main/examples/quickstart.ipynb">🚀 Example Usage</a> |
-    <a href="https://github.com/azaho/neuroprobe/blob/main/SUBMIT.md">📤 Submit</a>
-</p>
 
 ---
 

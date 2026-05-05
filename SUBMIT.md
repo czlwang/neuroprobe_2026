@@ -46,7 +46,6 @@ Note that the recording session list above does not contain any trials of subjec
 btbank7_100,btbank7_101,btbank7_102,btbank10_100,btbank10_101
 ```
 There's total around ~20 minutes for subject 7 and 10 each in those extra sessions.
-Please see these session parts uploaded [here (Google Drive link)](https://drive.google.com/drive/u/0/folders/1eUXKD-Nf0S5bUEVLo_boYxAxvXDRy9q9).
 The files in the link above ideally should be fine to just drop into the braintreebank folder, as they follow the same h5 format as the other trials.
 
 ## Formatting results

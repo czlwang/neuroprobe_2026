@@ -108,17 +108,3 @@ python eval_population.py --subject_id SUBJECT_ID --trial_id TRIAL_ID --verbose 
 
 Results will be saved in the `eval_results` directory according to `leaderboard_schema.json`.
 
-## Citation
-
-If you use Neuroprobe in your work, please cite our paper:
-```bibtex
-@misc{neuroprobe,
-      title={Neuroprobe: Evaluating Intracranial Brain Responses to Naturalistic Stimuli}, 
-      author={Andrii Zahorodnii and Christopher Wang and Bennett Stankovits and Charikleia Moraitaki and Geeling Chau and Andrei Barbu and Boris Katz and Ila R Fiete},
-      year={2025},
-      eprint={2509.21671},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2509.21671}, 
-}
-```

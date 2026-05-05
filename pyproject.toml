@@ -71,8 +71,8 @@ dev = [
 
 [project.urls]
 Homepage = "https://neuroprobe.dev"
-Repository = "https://github.com/azaho/neuroprobe"
-"Bug Reports" = "https://github.com/neuroprobe/neuroprobe/issues"
+Repository = "XXXX"
+"Bug Reports" = "XXXX"
 
 [tool.setuptools]
 packages = ["neuroprobe"]

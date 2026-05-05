@@ -35,7 +35,7 @@ Please see the full technical paper for more details.
 pip install neuroprobe
 ```
 
-2. If you haven't yet, download the BrainTreebank dataset from [the official release webpage](https://braintreebank.dev/), or using the following script (located [here](https://github.com/azaho/neuroprobe/blob/main/braintreebank_download_extract.py)):
+2. If you haven't yet, download the publicly available BrainTreebank dataset from [the official release webpage](https://braintreebank.dev/), or using the following script:
 ```bash
 python braintreebank_download_extract.py --lite
 ```
@@ -43,7 +43,7 @@ python braintreebank_download_extract.py --lite
 
 ### Code Example
 
-Start experimenting with [quickstart.ipynb](https://github.com/azaho/neuroprobe/blob/main/examples/quickstart.ipynb) to create datasets and evaluate models. For example:
+Start experimenting with quickstart.ipynb to create datasets and evaluate models. For example:
 ```python
 import os, torch
 os.environ['ROOT_DIR_BRAINTREEBANK'] = '/path/to/braintreebank/'  # NOTE: Change this to your own path, or define an environment variable elsewhere
@@ -101,7 +101,7 @@ will give the following output:
 
 ### Evaluation Example
 
-Run the linear regression model evaluation using the following example script (located [here](https://github.com/azaho/neuroprobe/blob/main/examples/eval_population.py)):
+Run the linear regression model evaluation using the following example script:
 ```bash
 python eval_population.py --subject_id SUBJECT_ID --trial_id TRIAL_ID --verbose --eval_name gpt2_surprisal --split_type CrossSession
 ```
